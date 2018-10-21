@@ -121,6 +121,7 @@ public class MainActivity extends AppCompatActivity {
                 .from(this)
                 .setType("text/plain")
                 .setChooserTitle("Share with: ")
+                .setEmailTo(new String[]{"chandy@gmail.com", "phirumtan@gmail.com"})
                 .setText(this.textShare)
                 .startChooser();
     }
